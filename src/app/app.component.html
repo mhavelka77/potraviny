@@ -1,6 +1,6 @@
 <div>
 
-  <div *ngFor="let p of potraviny.pole" [ngStyle]="{'background-color': (p.mame) ? '#136910' : '#691010' }" style="height: 70px; vertical-align: middle;">
+  <div *ngFor="let p of potraviny.pole" [ngStyle]="{'background-color': (p.mame) ? '#136910' : '#c44147' }" style="height: 70px; vertical-align: middle;">
     <p (click)="clicked(p.nazev)" style="text-align: center; color: white; font-size: larger; font-family: Arial, Helvetica, sans-serif; line-height: 70px;">{{ p.nazev }}</p>
   </div>
 
