@@ -1,0 +1,6 @@
+.masonry .item {
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    }
